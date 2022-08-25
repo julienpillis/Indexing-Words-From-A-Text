@@ -547,8 +547,10 @@ int hauteur(t_Noeud *racine){                                           // Calcu
 }
 
 int equilibre(t_Noeud *racine){           // Retourne 1 si l'arbre est équilibré sinon 0
-    int hauteurD = hauteur(racine->filsDroit);
-    int hauteurG = hauteur(racine->filsGauche);
-    if(hauteurD==hauteurG || hauteurD==hauteurG-1 || hauteurD-1==hauteurG) return 1;
+    if(racine==NULL) return 1;
+    if(hauteur(racine->filsGauche)==hauteur(racine->filsDroit) || hauteur(racine->filsDroit)==hauteur(racine->filsGauche)-1 || hauteur(racine->filsDroit)-1==hauteur(racine->filsGauche))
+    {
+        return -1 + equilibre(racine->filsDroit)+ equilibre(racine->filsGauche);
+    }
     return 0;
 }
