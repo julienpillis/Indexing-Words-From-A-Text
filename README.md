@@ -1,7 +1,7 @@
 # Indexing-Words-From-A-Text
 Whithin the scope of the NF16 (Data Structures and Algorithms) course, I had to index words from a text, using binary search trees. 
 
-The goal of this project/practical work is to create a program that indexes words in text read from a file. For this, we will use binary search trees (words will be sorted according to lexicographic order) in C language, and we will try to optimize indexing as best as possible. The ABR (the index) will allow us to efficiently manage data extracted from the text to be able to retrieve information relating to the text and words (occurrences, line number, order...), but also to be able to reconstruct the text in another file.
+The goal of this project/practical work is to create a program that indexes words in text read from a file. For this, we will use binary search trees (words will be sorted according to lexicographic order) in C language, and we will try to optimize indexing as best as possible. The ABR (the index) will allow us to efficiently manage data extracted from the text and to be able to retrieve information relating to the text and the words (occurrences, line number, order...), but also to be able to reconstruct the text in another file.
 
 Structure of the project:
 
