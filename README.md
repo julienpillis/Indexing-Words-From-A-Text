@@ -13,6 +13,6 @@ Structure of the project:
 
 [remarks] :
 
-  - all in-file comments and report are in french.
-  - The grade given by teachers for this work : 19/20
+  - All in-file comments and report are in french.
+  - Grade given by teachers for this work : 19/20
 
